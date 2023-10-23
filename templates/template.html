@@ -1,0 +1,28 @@
+<!-- HTML that is rendered for Flask categorization web app -->
+
+<!DOCTYPE html>
+<html>
+<body>
+  <h1>Label Data</h1>
+  <p>{{ row_data }}</p>
+  <p>{{ post_date }}</p>
+  <p>{{ amount }}</p>
+
+  <form method="POST">
+    <select name="category">
+      <option value="Category 1">Category 1</option>
+      <option value="Category 2">Category 2</option>
+      <option value="Category 3">Category 3</option>
+      <option value="Category 4">Category 4</option>
+      <option value="Category 5">Category 5</option>
+      <option value="Category 6">Category 6</option>
+      <option value="Category 7">Category 7</option>
+      <option value="Category 8">Category 8</option>
+      <option value="Category 9">Category 9</option>
+
+      <!-- Add options for the other categories -->
+    </select>
+    <input type="submit" value="Submit">
+  </form>
+</body>
+</html>
